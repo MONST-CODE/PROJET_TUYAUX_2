@@ -1,0 +1,155 @@
+[2026-01-07 12:25:47.127] [info] [thread 18028] [clice.cc:101] argv[0] = c:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\bin\clice.exe
+[2026-01-07 12:25:47.129] [info] [thread 18028] [clice.cc:101] argv[1] = --mode=pipe
+[2026-01-07 12:25:47.329] [info] [thread 18028] [clice.cc:115] Server starts listening on stdin/stdout
+[2026-01-07 12:25:47.445] [info] [thread 18028] [Server.cpp:163] <-- Handling request: initialize(0)
+[2026-01-07 12:25:47.446] [info] [thread 18028] [Lifecycle.cpp:8] Initialize from client: Visual Studio Code, version: 1.107.1
+[2026-01-07 12:25:47.448] [warning] [thread 18028] [Lifecycle.cpp:27] Fail to load config, because: Config file doesn't exist!
+[2026-01-07 12:25:47.448] [info] [thread 18028] [Lifecycle.cpp:28] Use default config: {
+    "project": {
+        "cache_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\cache",
+        "clang_tidy": false,
+        "compile_commands_dirs": [
+            "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\build"
+        ],
+        "index_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\index",
+        "logging_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\logging",
+        "max_active_file": 8,
+        "root": true
+    },
+    "rules": [],
+    "workspace": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2"
+}
+[2026-01-07 12:25:47.501] [warning] [thread 18028] [Command.cpp:627] Failed to read CDB file: C:\Users\HP\Desktop\PROJET_TUYAUX_2\build\compile_commands.json, no such file or directory
+[2026-01-07 12:25:47.502] [warning] [thread 18028] [Command.cpp:647] Can not found any valid CDB file from given directories, search recursively from workspace: C:\Users\HP\Desktop\PROJET_TUYAUX_2 ...
+[2026-01-07 12:25:47.502] [warning] [thread 18028] [Document.cpp:15] Fail to load cache info, because: no such file or directory
+[2026-01-07 12:25:47.602] [info] [thread 18028] [Server.cpp:170] --> Handled request: initialize(0) 156ms
+[2026-01-07 12:25:47.647] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: initialized
+[2026-01-07 12:25:47.647] [info] [thread 18028] [Indexer.cpp:112] Fail to load project index form C:\Users\HP\Desktop\PROJET_TUYAUX_2\.clice\index\project.idx
+[2026-01-07 12:25:47.647] [info] [thread 18028] [Server.cpp:180] --> Handled notification: initialized 0ms
+[2026-01-07 12:25:48.251] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-07 12:25:48.252] [info] [thread 18028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 1ms
+[2026-01-07 12:25:48.435] [info] [thread 18028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\main.cpp, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\main.cpp]
+[2026-01-07 12:25:48.666] [info] [thread 18028] [Document.cpp:230] Building PCH successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\main.cpp
+[2026-01-07 12:25:48.726] [info] [thread 18028] [Document.cpp:352] Building AST successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\main.cpp
+[2026-01-07 12:25:49.026] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(1)
+[2026-01-07 12:25:49.075] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(1) 49ms
+[2026-01-07 12:25:49.800] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/setTrace
+[2026-01-07 12:25:49.914] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(2)
+[2026-01-07 12:25:49.938] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(3)
+[2026-01-07 12:25:49.939] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentLink(2) 25ms
+[2026-01-07 12:25:49.962] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(3) 23ms
+[2026-01-07 12:25:50.061] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(4)
+[2026-01-07 12:25:50.074] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(4) 12ms
+[2026-01-07 12:25:50.084] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(5)
+[2026-01-07 12:25:50.091] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/setTrace
+[2026-01-07 12:25:50.098] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(5) 13ms
+[2026-01-07 12:25:50.304] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(6)
+[2026-01-07 12:25:50.305] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/setTrace
+[2026-01-07 12:25:50.307] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(6) 3ms
+[2026-01-07 12:25:50.539] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:25:51.995] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(7)
+[2026-01-07 12:25:51.997] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(7) 1ms
+[2026-01-07 12:25:51.998] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(8)
+[2026-01-07 12:25:51.998] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(8) 0ms
+[2026-01-07 12:25:52.005] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(9)
+[2026-01-07 12:25:52.006] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(10)
+[2026-01-07 12:25:52.013] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(9) 8ms
+[2026-01-07 12:25:52.013] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(10) 7ms
+[2026-01-07 12:25:53.826] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(11)
+[2026-01-07 12:25:53.826] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(11) 0ms
+[2026-01-07 12:25:53.886] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:25:53.904] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(12)
+[2026-01-07 12:25:53.937] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(12) 32ms
+[2026-01-07 12:25:54.089] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(13)
+[2026-01-07 12:25:54.113] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(13) 23ms
+[2026-01-07 12:25:54.501] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(14)
+[2026-01-07 12:25:54.502] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:25:54.502] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(14) 1ms
+[2026-01-07 12:25:54.804] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(15)
+[2026-01-07 12:25:54.805] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(15) 0ms
+[2026-01-07 12:25:55.423] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(16)
+[2026-01-07 12:25:55.424] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(16) 0ms
+[2026-01-07 12:26:59.935] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-07 12:26:59.936] [info] [thread 18028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-07 12:26:59.936] [info] [thread 18028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.cpp, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.cpp]
+[2026-01-07 12:26:59.980] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(17)
+[2026-01-07 12:26:59.986] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(18)
+[2026-01-07 12:26:59.989] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(19)
+[2026-01-07 12:26:59.992] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(20)
+[2026-01-07 12:26:59.996] [info] [thread 18028] [Document.cpp:230] Building PCH successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.cpp
+[2026-01-07 12:27:00.048] [info] [thread 18028] [Document.cpp:352] Building AST successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.cpp
+[2026-01-07 12:27:00.056] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(17) 75ms
+[2026-01-07 12:27:00.063] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(18) 76ms
+[2026-01-07 12:27:00.064] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(19) 74ms
+[2026-01-07 12:27:00.070] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentLink(20) 78ms
+[2026-01-07 12:27:00.195] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(21)
+[2026-01-07 12:27:00.195] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(21) 0ms
+[2026-01-07 12:27:00.640] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(22)
+[2026-01-07 12:27:00.641] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(22) 0ms
+[2026-01-07 12:27:00.785] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(23)
+[2026-01-07 12:27:00.785] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(23) 0ms
+[2026-01-07 12:27:18.260] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-07 12:27:18.260] [info] [thread 18028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-07 12:27:18.261] [info] [thread 18028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h]
+[2026-01-07 12:27:18.328] [info] [thread 18028] [Document.cpp:230] Building PCH successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h
+[2026-01-07 12:27:18.336] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(24)
+[2026-01-07 12:27:18.454] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(25)
+[2026-01-07 12:27:18.455] [info] [thread 18028] [Document.cpp:352] Building AST successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h
+[2026-01-07 12:27:18.475] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(24) 138ms
+[2026-01-07 12:27:18.479] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(25) 25ms
+[2026-01-07 12:27:18.528] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(26)
+[2026-01-07 12:27:18.540] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(26) 11ms
+[2026-01-07 12:27:18.885] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(27)
+[2026-01-07 12:27:18.886] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(28)
+[2026-01-07 12:27:18.886] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentLink(27) 0ms
+[2026-01-07 12:27:18.886] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(28) 0ms
+[2026-01-07 12:27:18.889] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:27:18.889] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(29)
+[2026-01-07 12:27:18.889] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(29) 0ms
+[2026-01-07 12:27:19.200] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(30)
+[2026-01-07 12:27:19.201] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(30) 1ms
+[2026-01-07 12:31:11.602] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-07 12:31:11.603] [info] [thread 18028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-07 12:31:11.604] [info] [thread 18028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.h, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.h]
+[2026-01-07 12:31:11.657] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(31)
+[2026-01-07 12:31:11.665] [info] [thread 18028] [Document.cpp:230] Building PCH successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.h
+[2026-01-07 12:31:11.693] [info] [thread 18028] [Document.cpp:352] Building AST successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.h
+[2026-01-07 12:31:11.695] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(31) 38ms
+[2026-01-07 12:31:11.828] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(32)
+[2026-01-07 12:31:11.828] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(32) 0ms
+[2026-01-07 12:31:12.069] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(33)
+[2026-01-07 12:31:12.074] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(33) 4ms
+[2026-01-07 12:31:12.110] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(34)
+[2026-01-07 12:31:12.111] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(35)
+[2026-01-07 12:31:12.111] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentLink(34) 0ms
+[2026-01-07 12:31:12.111] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(35) 0ms
+[2026-01-07 12:31:12.463] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(36)
+[2026-01-07 12:31:12.464] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(36) 0ms
+[2026-01-07 12:31:12.657] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:31:12.657] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(37)
+[2026-01-07 12:31:12.658] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(37) 0ms
+[2026-01-07 12:31:23.588] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(38)
+[2026-01-07 12:31:23.589] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:31:23.589] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(38) 1ms
+[2026-01-07 12:31:23.664] [info] [thread 18028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-07 12:31:23.664] [info] [thread 18028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-07 12:31:23.666] [info] [thread 18028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp]
+[2026-01-07 12:31:23.736] [info] [thread 18028] [Document.cpp:230] Building PCH successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp
+[2026-01-07 12:31:23.849] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(39)
+[2026-01-07 12:31:23.949] [info] [thread 18028] [Document.cpp:352] Building AST successfully for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp
+[2026-01-07 12:31:23.949] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(40)
+[2026-01-07 12:31:23.958] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(39) 109ms
+[2026-01-07 12:31:23.985] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(40) 35ms
+[2026-01-07 12:31:24.033] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(41)
+[2026-01-07 12:31:24.036] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(41) 3ms
+[2026-01-07 12:31:24.232] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(42)
+[2026-01-07 12:31:24.242] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/documentLink(42) 9ms
+[2026-01-07 12:31:24.379] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(43)
+[2026-01-07 12:31:24.380] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(43) 0ms
+[2026-01-07 12:31:24.756] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(44)
+[2026-01-07 12:31:24.757] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(44) 0ms
+[2026-01-07 12:31:24.931] [info] [thread 18028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-07 12:31:24.931] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(45)
+[2026-01-07 12:31:24.931] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(45) 0ms
+[2026-01-07 12:31:35.349] [info] [thread 18028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(46)
+[2026-01-07 12:31:35.350] [info] [thread 18028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(46) 1ms
