@@ -1,0 +1,37 @@
+[2026-01-09 23:20:45.856] [info] [thread 16204] [clice.cc:101] argv[0] = c:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\bin\clice.exe
+[2026-01-09 23:20:45.857] [info] [thread 16204] [clice.cc:101] argv[1] = --mode=pipe
+[2026-01-09 23:20:46.082] [info] [thread 16204] [clice.cc:115] Server starts listening on stdin/stdout
+[2026-01-09 23:20:46.198] [info] [thread 16204] [Server.cpp:163] <-- Handling request: initialize(0)
+[2026-01-09 23:20:46.202] [info] [thread 16204] [Lifecycle.cpp:8] Initialize from client: Visual Studio Code, version: 1.108.0
+[2026-01-09 23:20:46.204] [warning] [thread 16204] [Lifecycle.cpp:27] Fail to load config, because: Config file doesn't exist!
+[2026-01-09 23:20:46.204] [info] [thread 16204] [Lifecycle.cpp:28] Use default config: {
+    "project": {
+        "cache_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\cache",
+        "clang_tidy": false,
+        "compile_commands_dirs": [
+            "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\build"
+        ],
+        "index_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\index",
+        "logging_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\logging",
+        "max_active_file": 8,
+        "root": true
+    },
+    "rules": [],
+    "workspace": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2"
+}
+[2026-01-09 23:20:46.206] [warning] [thread 16204] [Command.cpp:627] Failed to read CDB file: C:\Users\HP\Desktop\PROJET_TUYAUX_2\build\compile_commands.json, no such file or directory
+[2026-01-09 23:20:46.206] [warning] [thread 16204] [Command.cpp:647] Can not found any valid CDB file from given directories, search recursively from workspace: C:\Users\HP\Desktop\PROJET_TUYAUX_2 ...
+[2026-01-09 23:20:46.206] [warning] [thread 16204] [Document.cpp:15] Fail to load cache info, because: no such file or directory
+[2026-01-09 23:20:46.217] [info] [thread 16204] [Server.cpp:170] --> Handled request: initialize(0) 19ms
+[2026-01-09 23:20:46.219] [info] [thread 16204] [Server.cpp:173] <-- Handling notification: initialized
+[2026-01-09 23:20:46.219] [info] [thread 16204] [Indexer.cpp:112] Fail to load project index form C:\Users\HP\Desktop\PROJET_TUYAUX_2\.clice\index\project.idx
+[2026-01-09 23:20:46.219] [info] [thread 16204] [Server.cpp:180] --> Handled notification: initialized 0ms
+[2026-01-09 23:20:46.224] [info] [thread 16204] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-09 23:20:46.227] [info] [thread 16204] [Server.cpp:180] --> Handled notification: textDocument/didOpen 2ms
+[2026-01-09 23:20:46.657] [info] [thread 16204] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\Game.h]
+[2026-01-09 23:20:46.710] [info] [thread 16204] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-09 23:20:46.711] [info] [thread 16204] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-09 23:20:46.711] [info] [thread 16204] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cpp]
+[2026-01-09 23:20:46.711] [info] [thread 16204] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(1)
+[2026-01-09 23:20:47.198] [info] [thread 16204] [Server.cpp:163] <-- Handling request: textDocument/documentLink(2)
+[2026-01-09 23:20:47.261] [info] [thread 16204] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(3)
