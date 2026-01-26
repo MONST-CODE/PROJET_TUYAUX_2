@@ -1,0 +1,74 @@
+[2026-01-26 17:40:46.447] [info] [thread 9176] [clice.cc:101] argv[0] = c:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\bin\clice.exe
+[2026-01-26 17:40:46.448] [info] [thread 9176] [clice.cc:101] argv[1] = --mode=pipe
+[2026-01-26 17:40:46.682] [info] [thread 9176] [clice.cc:115] Server starts listening on stdin/stdout
+[2026-01-26 17:40:46.769] [info] [thread 9176] [Server.cpp:163] <-- Handling request: initialize(0)
+[2026-01-26 17:40:46.769] [info] [thread 9176] [Lifecycle.cpp:8] Initialize from client: Visual Studio Code, version: 1.108.1
+[2026-01-26 17:40:46.770] [warning] [thread 9176] [Lifecycle.cpp:27] Fail to load config, because: Config file doesn't exist!
+[2026-01-26 17:40:46.770] [info] [thread 9176] [Lifecycle.cpp:28] Use default config: {
+    "project": {
+        "cache_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\cache",
+        "clang_tidy": false,
+        "compile_commands_dirs": [
+            "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\build"
+        ],
+        "index_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\index",
+        "logging_dir": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2\\.clice\\logging",
+        "max_active_file": 8,
+        "root": true
+    },
+    "rules": [],
+    "workspace": "C:\\Users\\HP\\Desktop\\PROJET_TUYAUX_2"
+}
+[2026-01-26 17:40:46.775] [warning] [thread 9176] [Command.cpp:627] Failed to read CDB file: C:\Users\HP\Desktop\PROJET_TUYAUX_2\build\compile_commands.json, no such file or directory
+[2026-01-26 17:40:46.776] [warning] [thread 9176] [Command.cpp:647] Can not found any valid CDB file from given directories, search recursively from workspace: C:\Users\HP\Desktop\PROJET_TUYAUX_2 ...
+[2026-01-26 17:40:46.776] [warning] [thread 9176] [Document.cpp:15] Fail to load cache info, because: no such file or directory
+[2026-01-26 17:40:46.821] [info] [thread 9176] [Server.cpp:170] --> Handled request: initialize(0) 52ms
+[2026-01-26 17:40:51.836] [info] [thread 9176] [Server.cpp:173] <-- Handling notification: initialized
+[2026-01-26 17:40:51.837] [info] [thread 9176] [Indexer.cpp:112] Fail to load project index form C:\Users\HP\Desktop\PROJET_TUYAUX_2\.clice\index\project.idx
+[2026-01-26 17:40:51.837] [info] [thread 9176] [Server.cpp:180] --> Handled notification: initialized 0ms
+[2026-01-26 17:40:52.070] [info] [thread 9176] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-26 17:40:52.071] [info] [thread 9176] [Server.cpp:180] --> Handled notification: textDocument/didOpen 1ms
+[2026-01-26 17:40:52.451] [info] [thread 9176] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cppm, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cppm]
+[2026-01-26 17:40:52.608] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(1)
+[2026-01-26 17:40:54.358] [warning] [thread 9176] [Document.cpp:223] Building PCH fails for C:\Users\HP\Desktop\PROJET_TUYAUX_2\renderer.cppm, Because: Fail to build PCH or PCM, error occurs in compilation.
+[2026-01-26 17:40:54.358] [warning] [thread 9176] [Document.cpp:225] 'imgui.h' file not found
+[2026-01-26 17:40:54.358] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(1) 1750ms
+[2026-01-26 17:40:54.538] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentLink(2)
+[2026-01-26 17:40:54.543] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/documentLink(2) 4ms
+[2026-01-26 17:40:55.090] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(3)
+[2026-01-26 17:40:55.091] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/inlayHint(3) 1ms
+[2026-01-26 17:40:56.097] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(4)
+[2026-01-26 17:40:56.173] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/foldingRange(4) 75ms
+[2026-01-26 17:40:56.954] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(5)
+[2026-01-26 17:40:56.973] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/foldingRange(5) 19ms
+[2026-01-26 17:40:57.297] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(6)
+[2026-01-26 17:40:57.318] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:40:57.318] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(6) 21ms
+[2026-01-26 17:40:57.480] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:40:57.543] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentLink(7)
+[2026-01-26 17:40:57.543] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/documentLink(7) 0ms
+[2026-01-26 17:40:57.565] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:40:57.818] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:40:59.271] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(8)
+[2026-01-26 17:40:59.314] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/foldingRange(8) 42ms
+[2026-01-26 17:40:59.911] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(9)
+[2026-01-26 17:40:59.953] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(9) 42ms
+[2026-01-26 17:41:00.676] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(10)
+[2026-01-26 17:41:00.728] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/foldingRange(10) 52ms
+[2026-01-26 17:41:01.682] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:03.221] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentLink(11)
+[2026-01-26 17:41:03.221] [info] [thread 9176] [Server.cpp:170] --> Handled request: textDocument/documentLink(11) 0ms
+[2026-01-26 17:41:03.438] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/setTrace
+[2026-01-26 17:41:03.949] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:04.279] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:04.329] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:04.410] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:04.450] [info] [thread 9176] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-26 17:41:04.524] [info] [thread 9176] [Server.cpp:173] <-- Handling notification: textDocument/didClose
+[2026-01-26 17:41:04.526] [info] [thread 9176] [Server.cpp:180] --> Handled notification: textDocument/didClose 1ms
+[2026-01-26 17:41:04.599] [info] [thread 9176] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-26 17:41:04.599] [info] [thread 9176] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-26 17:41:04.600] [info] [thread 9176] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\PROJET_TUYAUX_2\logic.cppm, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\PROJET_TUYAUX_2\logic.cppm]
+[2026-01-26 17:41:04.706] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(12)
+[2026-01-26 17:41:04.806] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(13)
+[2026-01-26 17:41:04.958] [info] [thread 9176] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(14)

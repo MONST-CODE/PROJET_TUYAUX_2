@@ -1,0 +1,181 @@
+[2026-01-25 21:25:43.108] [info] [thread 5028] [clice.cc:101] argv[0] = c:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\bin\clice.exe
+[2026-01-25 21:25:43.110] [info] [thread 5028] [clice.cc:101] argv[1] = --mode=pipe
+[2026-01-25 21:25:43.578] [info] [thread 5028] [clice.cc:115] Server starts listening on stdin/stdout
+[2026-01-25 21:25:43.927] [info] [thread 5028] [Server.cpp:163] <-- Handling request: initialize(0)
+[2026-01-25 21:25:43.928] [info] [thread 5028] [Lifecycle.cpp:8] Initialize from client: Visual Studio Code, version: 1.108.1
+[2026-01-25 21:25:43.930] [warning] [thread 5028] [Lifecycle.cpp:27] Fail to load config, because: Config file doesn't exist!
+[2026-01-25 21:25:43.931] [info] [thread 5028] [Lifecycle.cpp:28] Use default config: {
+    "project": {
+        "cache_dir": "C:\\Users\\HP\\Desktop\\Download\\PRO\\.clice\\cache",
+        "clang_tidy": false,
+        "compile_commands_dirs": [
+            "C:\\Users\\HP\\Desktop\\Download\\PRO\\build"
+        ],
+        "index_dir": "C:\\Users\\HP\\Desktop\\Download\\PRO\\.clice\\index",
+        "logging_dir": "C:\\Users\\HP\\Desktop\\Download\\PRO\\.clice\\logging",
+        "max_active_file": 8,
+        "root": true
+    },
+    "rules": [],
+    "workspace": "C:\\Users\\HP\\Desktop\\Download\\PRO"
+}
+[2026-01-25 21:25:43.941] [warning] [thread 5028] [Command.cpp:627] Failed to read CDB file: C:\Users\HP\Desktop\Download\PRO\build\compile_commands.json, no such file or directory
+[2026-01-25 21:25:43.943] [warning] [thread 5028] [Command.cpp:647] Can not found any valid CDB file from given directories, search recursively from workspace: C:\Users\HP\Desktop\Download\PRO ...
+[2026-01-25 21:25:43.943] [warning] [thread 5028] [Document.cpp:15] Fail to load cache info, because: no such file or directory
+[2026-01-25 21:25:44.105] [info] [thread 5028] [Server.cpp:170] --> Handled request: initialize(0) 177ms
+[2026-01-25 21:25:44.105] [info] [thread 5028] [Server.cpp:173] <-- Handling notification: initialized
+[2026-01-25 21:25:44.105] [info] [thread 5028] [Indexer.cpp:112] Fail to load project index form C:\Users\HP\Desktop\Download\PRO\.clice\index\project.idx
+[2026-01-25 21:25:44.105] [info] [thread 5028] [Server.cpp:180] --> Handled notification: initialized 0ms
+[2026-01-25 21:25:44.287] [info] [thread 5028] [Server.cpp:173] <-- Handling notification: textDocument/didOpen
+[2026-01-25 21:25:44.288] [info] [thread 5028] [Server.cpp:180] --> Handled notification: textDocument/didOpen 0ms
+[2026-01-25 21:25:45.561] [info] [thread 5028] [Document.cpp:202] Start building PCH for C:\Users\HP\Desktop\Download\PRO\theme.cppm, command: [ clang++ -std=c++20 -nostdlibinc --target=x86_64-w64-windows-gnu -isystem C:\msys64\ucrt64\include\c++\15.2.0 -isystem C:\msys64\ucrt64\include\c++\15.2.0\x86_64-w64-mingw32 -isystem C:\msys64\ucrt64\include\c++\15.2.0\backward -isystem C:\msys64\ucrt64\include -resource-dir=C:\Users\HP\AppData\Roaming\Code\User\globalStorage\ykiko.clice-vscode\lib\clang\21 C:\Users\HP\Desktop\Download\PRO\theme.cppm]
+[2026-01-25 21:25:45.807] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/documentSymbol(1)
+[2026-01-25 21:25:46.169] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/documentLink(2)
+[2026-01-25 21:25:47.140] [warning] [thread 5028] [Document.cpp:223] Building PCH fails for C:\Users\HP\Desktop\Download\PRO\theme.cppm, Because: Fail to build PCH or PCM, error occurs in compilation.
+[2026-01-25 21:25:47.141] [warning] [thread 5028] [Document.cpp:225] 'imgui.h' file not found
+[2026-01-25 21:25:47.183] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/documentSymbol(1) 1375ms
+[2026-01-25 21:25:47.263] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/documentLink(2) 1093ms
+[2026-01-25 21:25:49.223] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(3)
+[2026-01-25 21:25:49.251] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(3) 27ms
+[2026-01-25 21:25:50.351] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/setTrace
+[2026-01-25 21:25:50.723] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(4)
+[2026-01-25 21:25:50.745] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(4) 21ms
+[2026-01-25 21:25:51.037] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(5)
+[2026-01-25 21:25:51.066] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(5) 29ms
+[2026-01-25 21:25:51.266] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(6)
+[2026-01-25 21:25:51.275] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(6) 9ms
+[2026-01-25 21:25:51.316] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:25:52.321] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(7)
+[2026-01-25 21:25:52.344] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(7) 23ms
+[2026-01-25 21:25:53.294] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:25:56.426] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(8)
+[2026-01-25 21:25:56.440] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(8) 13ms
+[2026-01-25 21:26:00.209] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:04.280] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:04.835] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(9)
+[2026-01-25 21:26:04.869] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(9) 34ms
+[2026-01-25 21:26:05.614] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(10)
+[2026-01-25 21:26:05.626] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(10) 12ms
+[2026-01-25 21:26:05.683] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(11)
+[2026-01-25 21:26:05.694] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(12)
+[2026-01-25 21:26:05.695] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(11) 12ms
+[2026-01-25 21:26:05.714] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(12) 19ms
+[2026-01-25 21:26:05.845] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:06.839] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(13)
+[2026-01-25 21:26:06.840] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(13) 0ms
+[2026-01-25 21:26:07.572] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(14)
+[2026-01-25 21:26:07.578] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(14) 6ms
+[2026-01-25 21:26:09.821] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:09.888] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(15)
+[2026-01-25 21:26:09.910] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(15) 21ms
+[2026-01-25 21:26:10.215] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:11.093] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:13.408] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:13.469] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(16)
+[2026-01-25 21:26:13.470] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(16) 0ms
+[2026-01-25 21:26:13.772] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(17)
+[2026-01-25 21:26:13.774] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(17) 2ms
+[2026-01-25 21:26:14.424] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(18)
+[2026-01-25 21:26:14.426] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(18) 1ms
+[2026-01-25 21:26:14.576] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(19)
+[2026-01-25 21:26:14.593] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(19) 16ms
+[2026-01-25 21:26:14.641] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:14.674] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:14.674] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(20)
+[2026-01-25 21:26:14.675] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(20) 0ms
+[2026-01-25 21:26:14.981] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(21)
+[2026-01-25 21:26:14.983] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(21) 2ms
+[2026-01-25 21:26:15.249] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:15.249] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:15.903] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(22)
+[2026-01-25 21:26:15.905] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(22) 2ms
+[2026-01-25 21:26:15.953] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(23)
+[2026-01-25 21:26:15.954] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(23) 1ms
+[2026-01-25 21:26:16.338] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:16.396] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(24)
+[2026-01-25 21:26:16.405] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(24) 8ms
+[2026-01-25 21:26:16.673] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:16.857] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(25)
+[2026-01-25 21:26:16.858] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(25) 1ms
+[2026-01-25 21:26:16.929] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(26)
+[2026-01-25 21:26:16.930] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(26) 0ms
+[2026-01-25 21:26:17.239] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(27)
+[2026-01-25 21:26:17.242] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(27) 2ms
+[2026-01-25 21:26:18.163] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(28)
+[2026-01-25 21:26:18.164] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(28) 0ms
+[2026-01-25 21:26:18.867] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:18.917] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:19.101] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(29)
+[2026-01-25 21:26:19.104] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(29) 2ms
+[2026-01-25 21:26:19.228] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(30)
+[2026-01-25 21:26:19.230] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(30) 2ms
+[2026-01-25 21:26:19.253] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:19.406] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(31)
+[2026-01-25 21:26:19.412] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(32)
+[2026-01-25 21:26:19.413] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(31) 6ms
+[2026-01-25 21:26:19.413] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(32) 0ms
+[2026-01-25 21:26:19.465] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:19.710] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:19.763] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(33)
+[2026-01-25 21:26:19.765] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(33) 2ms
+[2026-01-25 21:26:20.063] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(34)
+[2026-01-25 21:26:20.065] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(34) 1ms
+[2026-01-25 21:26:20.651] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:20.993] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/hover(35)
+[2026-01-25 21:26:20.999] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/hover(35) 5ms
+[2026-01-25 21:26:22.007] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(36)
+[2026-01-25 21:26:22.009] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(36) 1ms
+[2026-01-25 21:26:22.075] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(37)
+[2026-01-25 21:26:22.077] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(37) 1ms
+[2026-01-25 21:26:22.393] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:22.811] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(38)
+[2026-01-25 21:26:22.881] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:22.881] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(38) 70ms
+[2026-01-25 21:26:23.158] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(39)
+[2026-01-25 21:26:23.158] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(39) 0ms
+[2026-01-25 21:26:23.757] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:23.757] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:24.074] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(40)
+[2026-01-25 21:26:24.075] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(40) 0ms
+[2026-01-25 21:26:26.967] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(41)
+[2026-01-25 21:26:26.971] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(41) 3ms
+[2026-01-25 21:26:27.026] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:27.320] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(42)
+[2026-01-25 21:26:27.321] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(42) 0ms
+[2026-01-25 21:26:27.498] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(43)
+[2026-01-25 21:26:27.500] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(44)
+[2026-01-25 21:26:27.500] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(43) 2ms
+[2026-01-25 21:26:27.506] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(44) 6ms
+[2026-01-25 21:26:27.567] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:27.871] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:28.802] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(45)
+[2026-01-25 21:26:28.803] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(45) 1ms
+[2026-01-25 21:26:33.764] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(46)
+[2026-01-25 21:26:33.770] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(46) 5ms
+[2026-01-25 21:26:33.821] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:34.131] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(47)
+[2026-01-25 21:26:34.134] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(47) 2ms
+[2026-01-25 21:26:34.363] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(48)
+[2026-01-25 21:26:34.365] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(48) 1ms
+[2026-01-25 21:26:34.765] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:34.831] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:35.123] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(49)
+[2026-01-25 21:26:35.129] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(49) 6ms
+[2026-01-25 21:26:35.378] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(50)
+[2026-01-25 21:26:35.379] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(50) 1ms
+[2026-01-25 21:26:35.910] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(51)
+[2026-01-25 21:26:35.911] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(51) 0ms
+[2026-01-25 21:26:36.137] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:26:36.854] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(52)
+[2026-01-25 21:26:36.903] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(52) 48ms
+[2026-01-25 21:26:37.932] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:30:21.870] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(53)
+[2026-01-25 21:30:21.872] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(53) 1ms
+[2026-01-25 21:30:21.879] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/inlayHint(54)
+[2026-01-25 21:30:21.880] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/foldingRange(55)
+[2026-01-25 21:30:21.881] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/inlayHint(54) 2ms
+[2026-01-25 21:30:21.882] [info] [thread 5028] [Server.cpp:163] <-- Handling request: textDocument/semanticTokens/full(56)
+[2026-01-25 21:30:21.882] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/foldingRange(55) 1ms
+[2026-01-25 21:30:21.882] [info] [thread 5028] [Server.cpp:170] --> Handled request: textDocument/semanticTokens/full(56) 0ms
+[2026-01-25 21:34:57.715] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
+[2026-01-25 21:34:57.727] [info] [thread 5028] [Server.cpp:155] Ignore unhandled method: $/cancelRequest
